@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function App() {
   return (
     <div>
@@ -8,6 +9,8 @@ export default function App() {
           paddingBottom: "1rem"
         }}
       >
+        <Link to="/invoices">Invoices</Link> |{" "}
+        <Link to="/expenses">Expenses</Link>
       </nav>
     </div>
   );
